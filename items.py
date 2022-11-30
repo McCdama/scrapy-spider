@@ -2,7 +2,7 @@
 
 import scrapy
 
-class ZipfilesItem(scrapy.Item):
+class PfdfilesItem(scrapy.Item):
     file_urls = scrapy.Field()
     files = scrapy.Field
     original_file_name = scrapy.Field()
